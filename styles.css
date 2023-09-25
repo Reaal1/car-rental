@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.general-content{
+    height: 105%;
+    padding: 1px 50px;
+    background:  #F2F1F0;
+}
+.navbar-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar-upper-leftside{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-contact{
+    color: #313131;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.navbar-upper-rightside{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav-line{
+    margin-top: 10px;
+    opacity: 0.5;
+    background: #909090;
+}
+.navbar-lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar-lower-center{
+    display: flex;
+    gap: 25px;
+    margin-left: 140px;
+}
+.navbartoggle{
+    display: flex;
+    gap:3px;
+}
+.navbar-link{
+    text-decoration: none;
+    color:#313131;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.navbar-lower-rightside{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.signin{
+    color: #F5993C;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    font-family: Nunito Sans;
+}
+.nav-button{
+    display: flex;
+    width: 132px;
+    height: 50px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background:  #F5993C;
+    font-family: poppins;
+}
+.services-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+.services{
+    margin-top: 40px;
+}
+.rental-services{
+    color:  #313131;
+    font-size: 60px;
+    font-weight: 50;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-family: Bebas Neue;
+}
+.rental-services-paragraph{
+    color: #909090;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 15px;
+    font-family: poppins;
+}
+.car-rent-links{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.link-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: -20px;
+    
+}
+.Ellipse{
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+.play{
+    position: absolute;
+    margin-bottom: 46px;
+    z-index: 1;
+    
+}
+.car-rent-button{
+    display: flex;
+    width: 140px;
+    height: 60px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 1px solid var(--Black, #313131);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.car-rental-paragraph{
+    color: #313131;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -30px;
+    font-family: poppins;
+}
+.ornament-images{
+    display: flex;
+    width: 50%;
+    height: 300px;
+    
+}
+.car-ornament{
+    position: relative;
+    margin-left: 130px;
+    height: 340px;
+    
+}
+.sport-car{
+    position: absolute;
+    width: 53%;
+    margin-top: -12px;
+    margin-left: -5px;
+}
+.choosebar{
+    display: flex;
+    border-radius: 96px;
+    height: 85px;
+    background: #FFF;
+    box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(2px);
+    margin-top: -42px;
+    margin-right: 230px;
+}
+.chooselinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.chooselinks-box{
+    margin-left: 20px;
+    
+}
+.chooselinks-box1{
+    display: flex;
+}
+.choose-paragraph{
+    color: #909090;
+    font-size: 16px;
+    font-weight: 545;
+    margin-bottom: 5px;
+    font-family: poppins;
+}
+.chooseimages-box{
+    width: 17px;
+}
+.choosewrapper{
+    display: flex;
+    gap: 2px;
+}
+.choose-division{
+    font-size: 13px;
+    font-weight: 549;
+    color: #313131;
+    font-family: poppins;
+}
+.choose-button{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 96px;
+    background: #6ED4D4;
+    font-family: poppins;
+}
+.choosechevron{
+    margin-top: 20px;
+}
+.footer-section{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    
+}
+.footer-link1{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: #313131;
+    font-family: Playfair Display;
+}
+.footer-link2{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    color: #313131;
+    font-family: Poppins;
+}
+.footer-link3{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: #313131;
+    font-family: Vidaloka;
+}
+.footer-link4{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #313131;
+    font-family: Montserrat;
+}
+.footer-link5{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #313131;
+    font-family: Nunito;
+}
+.footer-link6{
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    color: #313131;
+    font-family: Inter;
+}
+@media (max-width:1230px)
+ {  .general-content{
+    height: 70%;
+    padding: 1px 50px;
+    background:  #F2F1F0;
+}    
+.choose-division{
+    font-size: 11px;
+    font-weight: 549;
+    color: #313131;
+    font-family: poppins;
+}
+    
+}
+@media (max-width:1179px){
+    .general-content{
+        height: 70%;
+        padding: 1px 50px;
+        background:  #F2F1F0;
+    .choose-division{
+        font-size: 9px;
+        font-weight: 549;
+        color: #313131;
+        font-family: poppins;
+    }
+}
+}
+@media (max-width:1134px){
+    .car-ornament{
+        height: 120%;
+        width: 80%;
+    }
+}
+@media (max-width:1001px){
+
+    .navbar-link{
+        text-decoration: none;
+        color:#313131;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: poppins;
+    }
+    .signin{
+        color: #F5993C;
+        font-size: 15px;
+        font-weight: 200;
+        text-decoration-line: underline;
+        font-family: Nunito Sans;
+    }
+    .nav-button{
+        display: flex;
+        width: 122px;
+        height: 50px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 32px;
+        background:  #F5993C;
+        font-family: poppins;
+    }
+    .sport-car{
+        position: absolute;
+        width: 50%;
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+    .choose-button{
+        display: flex;
+        width: 110px;
+        height: 50px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 96px;
+        background: #6ED4D4;
+        font-family: poppins;
+        margin-left: -25px;
+    }
+    .choose-paragraph{
+        color: #909090;
+        font-size: 13px;
+        font-weight: 545;
+        margin-bottom: 5px;
+        font-family: poppins;
+    }
+
+}
+@media (max-width:931px){
+    
+}
