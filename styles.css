@@ -19,12 +19,12 @@ body{
 }
 .navbar-upper-leftside{
     display: flex;
-    gap: 20px;
+    gap: 13px;
     align-items: center;
 }
 .nav-contact{
     color: #313131;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     font-family: Poppins;
 }
@@ -46,7 +46,7 @@ body{
 }
 .navbar-lower-center{
     display: flex;
-    gap: 25px;
+    gap: 27px;
     margin-left: 140px;
 }
 .navbartoggle{
@@ -56,7 +56,7 @@ body{
 .navbar-link{
     text-decoration: none;
     color:#313131;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     font-family: poppins;
 }
@@ -88,21 +88,19 @@ body{
     display: flex;
     width: 100%;
     align-items: center;
-    
 }
 .services{
     margin-top: 40px;
 }
 .rental-services{
     color:  #313131;
-    font-size: 46px;
+    font-size: 55px;
     text-transform: uppercase;
-    margin-top: 2px;
     font-family: Bebas Neue;
 }
 .rental-services-paragraph{
     color: #909090;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 400;
     margin-top: 15px;
     font-family: poppins;
@@ -111,15 +109,13 @@ body{
     display: flex;
     align-items: center;
     text-align: center;
-    
 }
 .link-image{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;
+    padding-top: 13px;
     margin-left: -20px;
-    
 }
 .Ellipse{
     position: relative;
@@ -130,7 +126,6 @@ body{
     position: absolute;
     margin-bottom: 46px;
     z-index: 1;
-    
 }
 .car-rent-button{
     display: flex;
@@ -146,32 +141,31 @@ body{
     font-size: 16px;
     font-weight: 400;
     font-family: poppins;
+    margin-bottom: 35px;
 }
 .car-rental-paragraph{
     color: #313131;
     font-size: 18px;
     font-weight: 400;
+    margin-top: -30px;
     margin-left: -30px;
     font-family: poppins;
 }
 .ornament-images{
     display: flex;
-    width: 50%;
-    height: 300px;
-    
+    width: 56%;
+    height: 310px;
 }
 .car-ornament{
     position: relative;
     width: 80%;
     margin-left: 130px;
-    height: 340px;
-    
+    height: 400px;
 }
 .sport-car{
     position: absolute;
-    width: 53%;
-    margin-top: -12px;
-    margin-left: -5px;
+    width: 52%;
+    margin-left: 20px;
 }
 .choosebar{
     display: flex;
@@ -180,7 +174,6 @@ body{
     background: #FFF;
     box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(2px);
-    margin-top: -42px;
     margin-right: 230px;
 }
 .chooselinks{
@@ -192,7 +185,6 @@ body{
 }
 .chooselinks-box{
     margin-left: 20px;
-    
 }
 .chooselinks-box1{
     display: flex;
@@ -240,7 +232,6 @@ body{
     display: flex;
     justify-content: center;
     gap:30px;
-    
 }
 .footer-link1{
     text-decoration: none;
@@ -291,17 +282,13 @@ body{
     font-family: Inter;
 }
 @media (max-width:1028px)
-
-
- 
- {   
+{   
 .choose-division{
     font-size: 11px;
     font-weight: 549;
     color: #313131;
     font-family: poppins;
 }
-    
 }
 @media (max-width:1179px){
     .choose-division{
@@ -313,7 +300,6 @@ body{
 }
 
 @media (max-width:1134px){
-    
     .car-ornament{
         height: 120%;
         width: 80%;
@@ -323,7 +309,6 @@ body{
     .ornament-images{
         margin-left: -30px;
     }
-
     .navbar-link{
         text-decoration: none;
         color:#313131;
@@ -607,7 +592,6 @@ body{
         margin-left: -65px;
         display: none;
     }
-
     .choosebar{
         display: none;
     }
