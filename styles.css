@@ -281,15 +281,7 @@ body{
     color: #313131;
     font-family: Inter;
 }
-@media (max-width:1028px)
-{   
-.choose-division{
-    font-size: 11px;
-    font-weight: 549;
-    color: #313131;
-    font-family: poppins;
-}
-}
+
 @media (max-width:1179px){
     .choose-division{
         font-size: 9px;
@@ -301,9 +293,18 @@ body{
 
 @media (max-width:1134px){
     .car-ornament{
-        height: 120%;
-        width: 80%;
+        height: 100%;
+        width: 76%;
     }
+}
+@media (max-width:1028px)
+{   
+.choose-division{
+    font-size: 11px;
+    font-weight: 549;
+    color: #313131;
+    font-family: poppins;
+}
 }
 @media (max-width:1001px){
     .ornament-images{
@@ -577,8 +578,7 @@ body{
     .chooseline{
         display: none;
     }
-
-    .choose-button{
+.choose-button{
         display: flex;
         width: 110px;
         height: 50px;
@@ -596,6 +596,17 @@ body{
         display: none;
     }
     .ornament-images{
-        margin-left: -30px;
+        margin-left: -220px;
+    }
+    .sport-car{
+        width: 35%;
+        margin-top: 1px;
+        margin-left: 85px;
+    }
+    
+    .car-ornament{
+        width: 55%;
+        height: 30%;
+        
     }
 }
